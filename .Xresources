@@ -2,10 +2,10 @@
 ! ~/.Xresources
 !
 
-! URxvt
+! URxvt configuration
 
-URxvt.font: xft:Roboto Mono:pixelsize=14:antialias=true
-URxvt.letterSpace: -1
+URxvt.font: xft:Terminus:pixelsize=14:antialias=false:hinting=false:autohint=false
+URxvt.letterSpace: 0
 URxvt.scrollBar: false
 URxvt.mouseWheelScrollPage: true
 URxvt.saveLines: 1024
@@ -13,13 +13,3 @@ URxvt.transparent: true
 URxvt.shading: 10
 URxvt.depth: 32
 URxvt.internalBorder: 8
-
-! Xft
-
-Xft.autohint: 0
-Xft.lcdfilter: lcddefault
-Xft.hintstyle: hintfull
-Xft.hinting: 1
-Xft.antialias: 1
-Xft.rgba: rgb
-Xft.dpi: 96
