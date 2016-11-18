@@ -12,9 +12,21 @@ super + Return
 super + space
     dmenu_run
 
-# Send signal to sxhkd to make it reload its configuration files:w
+# Send signal to sxhkd to make it reload its configuration files
 super + Escape
     pkill -USR1 -x sxhkd
+
+# Show date and time notification
+super + u
+    notify-send "Time" "$(date)"
+
+# Lower sound card volume
+XF86AudioLowerVolume
+    amixer set PCM 1dB-
+
+# Raise sound card volume
+XF86AudioRaiseVolume
+    amixer set PCM 1dB+
 
 # Bspwm hotkeys
 # General
@@ -115,10 +127,6 @@ super + {Left,Down,Up,Right}
 
 # Bspwm hotkeys
 # Pointer focus, move and resize
-
-# Focus
-~button1
-    bspc pointer -g focus
 
 # Start move or resize
 super + button{1-3}
