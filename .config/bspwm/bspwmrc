@@ -8,5 +8,5 @@ bspc config borderless_monocle true
 bspc config gapless_monocle true
 bspc config click_to_focus true
 
-bspc monitor DVI-0 -d I II III IV V
-bspc monitor DVI-1 -d VI VII VIII IX X
+bspc monitor DVI-D-0 -d I II III IV V
+bspc monitor DVI-D-1 -d VI VII VIII IX X
