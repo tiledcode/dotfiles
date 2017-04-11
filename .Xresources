@@ -1,15 +1,3 @@
 !
 ! ~/.Xresources
 !
-
-! URxvt configuration
-
-URxvt.font: xft:Terminus:pixelsize=14:antialias=false:hinting=false:autohint=false
-URxvt.letterSpace: 0
-URxvt.scrollBar: false
-URxvt.mouseWheelScrollPage: true
-URxvt.saveLines: 1024
-URxvt.transparent: true
-URxvt.shading: 10
-URxvt.depth: 32
-URxvt.internalBorder: 8
